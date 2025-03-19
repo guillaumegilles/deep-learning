@@ -1,0 +1,5 @@
+---
+title: Back Propagation
+---
+
+you can also train your model through backpropagation, meaning moving in the opposite direction, from output to input. Backpropagation allows us to calculate and attribute the error that is associated with each neuron, allowing us to adjust and fit the algorithm appropriately.

@@ -1,0 +1,36 @@
+---
+title: Embedding
+---
+
+
+Turning the byte-size chuncks from [[ai.ml.dl.nlp.tokenizer]] into
+numerical representation [@barektainFoundationalLargeLanguage2024].
+
+## Bread and Butter of Natural Language Processing
+
+The basic idea behind word embeddings is decades old. To model language
+on a computer, start by taking every word in the dictionary and making a
+list of its essential features — how many is up to you, as long as it’s
+the same for every word. “You can almost think of it like a 20 Questions
+game,” said Ellie Pavlick, a computer scientist studying language models
+at Brown University and Google DeepMind. “Animal, vegetable, object — the
+features can be anything that people think are useful for distinguishing
+concepts.” Then assign a numerical value to each feature in the list.
+The word “dog,” for example, would score high on “furry” but low on
+“metallic.” The result will embed each word’s semantic associations, and
+its relationship to other words, into a unique string of numbers
+[@pavlusHowEmbeddingsEncode2024].
+
+The downside of these machine-learned embeddings is that unlike in a game
+of 20 Questions, many of the descriptions encoded in each list of numbers
+are not interpretable by humans. “It seems to be a grab bag of stuff,”
+Pavlick said. “The neural network can just make up features in any way
+that will help.”
+
+But this supposed knowledge isn’t anything like what we’d find in a dictionary. Instead, it’s more like a map. If you imagine every embedding as a set of coordinates on a high-dimensional map shared by other embeddings, you’ll see certain patterns pop up. Certain words will cluster together, like suburbs hugging a big city. And again, “dog” and “cat” will have more similar coordinates than “dog” and “chair.”
+
+So why are the embeddings for “dog” and “cat” so similar? It’s because they take advantage of something that linguists have known for decades: Words used in similar contexts tend to have similar meanings. In the sequence “I hired a pet sitter to feed my ____,” the next word might be “dog” or “cat,” but it’s probably not “chair.” You don’t need a dictionary to determine this, just statistics.
+
+Embeddings — contextual coordinates, based on those statistics — are how an [[llm]] can find a good starting point for making its next-word predictions, without having to encode meaning.
+
+as a proxy for semantic meaning, embeddings have proved surprisingly effective. It’s one reason why large language models have rapidly risen to the forefront of AI. When these mathematical objects fit together in a way that coincides with our expectations, it feels like intelligence; when they don’t, we call it a “[[llm.hallucination]].” To the LLM, though, there’s no difference. They’re just lists of numbers, lost in space.

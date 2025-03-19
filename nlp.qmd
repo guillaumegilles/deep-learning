@@ -1,0 +1,34 @@
+---
+title: Natural Language Processing
+---
+
+
+Natural language processing (NLP) is the discipline of building machines
+that can manipulate human language — or data that resembles human language
+— in the way that it is written, spoken, and organized.
+
+It evolved from computational linguistics, which uses computer science to
+understand the principles of language, but rather than developing theoretical
+frameworks, NLP is an engineering discipline that seeks to build technology to
+accomplish useful tasks.
+
+NLP can be divided into two overlapping subfields:
+
+1. **Natural language understanding** (NLU): Focuses on semantic analysis or
+   determining the intended meaning of text.
+   
+2. **Natural language generation (NLG)**: Focuses on text generation by a machine.
+
+NLP is separate from — but often used in conjunction with — speech recognition,
+which seeks to parse spoken language into words, turning sound into text and vice
+versa. [[llm]] are great milestones in NLP and are able to both NLU and NLG.
+
+## Tokenization
+
+Breaking down text into byte-size chuncks
+
+## Positional encoding
+
+
+The model doesn't forget the order of the [[ai.ml.dl.nlp.embedding]] [[ai.ml.dl.nlp.tokenizer]],
+the sequence. [@barektainFoundationalLargeLanguage2024]
