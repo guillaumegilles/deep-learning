@@ -1,0 +1,18 @@
+---
+title: PyTorch
+---
+
+https://www.youtube.com/watch?v=tHL5STNJKag = Pipeline
+
+1. Pytorch dataset
+2. PyTorch model
+3. Training loop
+
+## Creating a tensor
+
+
+```{python}
+import torch
+x = torch.rand(5, 3)
+print(x)
+```

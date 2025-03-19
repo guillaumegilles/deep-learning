@@ -52,10 +52,19 @@ website:
       - icon: code-square
     contents:
       - href: index.qmd
-        text: HOME
-      - section:
+
+      - section: building-blocs.qmd
         contents:
-          - href: deep-learning.qmd
+          - href: neural-network.qmd
+          - href: back-propagation.qmd
+
+      - section: nlp.qmd
+        contents:
+          -href: token.qmd
+
+      - section: frameworks.qmd
+        contents: 
+          - href: pytorch.qmd
   
   page-footer:
     center:

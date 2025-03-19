@@ -29,6 +29,10 @@ Breaking down text into byte-size chuncks
 
 ## Positional encoding
 
-
 The model doesn't forget the order of the [[ai.ml.dl.nlp.embedding]] [[ai.ml.dl.nlp.tokenizer]],
 the sequence. [@barektainFoundationalLargeLanguage2024]
+
+## LLM Leaderboard
+
+https://scale.com/leaderboard
+https://lmarena.ai/

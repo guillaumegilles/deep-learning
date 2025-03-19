@@ -1,0 +1,11 @@
+---
+title: Tokenization
+---
+
+Interacting with language model is basically a conversation. To do so, we need to a way to translate our word into something computer understands, i.e. numbers.
+
+## Tokenization
+
+Breaking down text into byte-size chuncks
+
+https://tiktokenizer.vercel.app/
