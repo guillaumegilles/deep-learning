@@ -1,0 +1,36 @@
+---
+title: Optimizers
+updated: 2025-06-12 19:36:18Z
+created: 2025-06-22 18:51:29Z
+---
+
+- # Optimizer - Stochastic Gradient Descent
+  
+  The [[Loss Function]] guide the network to its objective, where the optimizer tells _how_ to get there. An optimizer is an algorithm that adjusts the weights to minimize the loss. Virtually, all optimizer algorithms used in deep learning belong to famil called **stochastic gradient descent**. They are iterative algorithms that train a network in steps:
+  1. Sample the training data and run it through the network to make predictions.
+  2. Measure the loss between the predictions and the true values.
+  3. Finally, adjust the weights in a direction that makes the loss smaller.
+  
+  Then, repeat these steps until the loss won't decrease any further.
+  
+  ![[loss_function.gif]]
+  Each iteration's sample of training data (step #1) is called a **minibatch** (or often just **batch**), while a complete round of the training data is called an **epoch**. The number of epoch you train for is how many times the network will see each training examples. This animation shows a linear model being trained with SGD. The pale red dots depict the entire training set (epoch), while the solid red dots are the minibatches. Every time SGD sees a new minibatches it will shift the weights ($w$ for the slope and $b$ for the y-intercept) toward their correct values at that batch. Batch after batch, the line eventually converges to its best fit. The loss get smaller as the weights get closer to their optimized values.
+- ## Learning Rate and Batch Size
+  
+  The line only makes small chifts for every iteration. This is determined by the **learning rate**. A smaller learning rate means the network needs to see more minibatches before its weights converge to their best values.
+  
+  The learning rate and the **batch size** are two parameters that ahve the largest effect on how SGD training proceeds. Their interactions is subtle and the right choice for these parameters isn't always obvious. [[Adam]] is a SGD algorithm that has an adaptative learning rate that makes it suitable fot most problems without any parameters tuning. In a sense, it is self-tuning.
+- ## Keras
+  
+  After defining a [[neural network]], we add a loss function and optimizer with model's `compile` method:
+  
+  ```python
+  model.compile(
+    optimizer = "adama",
+    loss = "mae"
+  )
+  ```
+  
+  
+  > [!NOTE] Why Stochastic Gradient Descent
+  > The **gradient** is a vector that tells us what direction the weights need to adjusted. More precisely, it tells us how to change the weights to make the loss change _fastest_ We call the process gradient **descent** because it uses the gradient to _descend_ the loss curve toward a minimum. **Stochastic** means "determined by chance". Our training is _stochastic_ because the minibatches are _random samples_ from the dataset. That's why it's call SGD!
