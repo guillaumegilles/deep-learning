@@ -1,7 +1,7 @@
 title:: 🧠 Deep Learning
 
 - ## 
-- ## [[Cross Validation]]
-- ## [[Activation Functions]]
-- [[Foundation Models]]
+- ## [[cross-validation.qmd]]
+- ## [[activation-functions.qmd]]
+- [[foundation-modelsl.qmd]]
 - 

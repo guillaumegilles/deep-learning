@@ -1,0 +1,2 @@
+When working in Jupyter Notebooks, it is good to get into the habit of using the
+%%timeit cell magic. This can often lead to interesting insights.

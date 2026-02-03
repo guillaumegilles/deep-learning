@@ -6,7 +6,7 @@ created: 2025-06-22 18:51:29Z
 
 - # Optimizer - Stochastic Gradient Descent
   
-  The [[Loss Function]] guide the network to its objective, where the optimizer tells _how_ to get there. An optimizer is an algorithm that adjusts the weights to minimize the loss. Virtually, all optimizer algorithms used in deep learning belong to famil called **stochastic gradient descent**. They are iterative algorithms that train a network in steps:
+  The [[loss-function.qmd]] guide the network to its objective, where the optimizer tells _how_ to get there. An optimizer is an algorithm that adjusts the weights to minimize the loss. Virtually, all optimizer algorithms used in deep learning belong to famil called **stochastic gradient descent**. They are iterative algorithms that train a network in steps:
   1. Sample the training data and run it through the network to make predictions.
   2. Measure the loss between the predictions and the true values.
   3. Finally, adjust the weights in a direction that makes the loss smaller.
