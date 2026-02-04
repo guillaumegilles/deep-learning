@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: ../../docs/deep-learning
+
+book:
+  title: "Deep Learning"
+  author: "Guillaume Gilles"
+  date: "1/27/2026"
+  search: 
+    location: sidebar
+  navbar:
+    right:
+      - href: ../about/index.html
+        text: "About"
+      - href: ../index.html
+        text: "Projects"
+
+  chapters:
+    - index.qmd
+    - part: machin-learning.qmd
+      chapters: 
+        - cross-validation.qmd
+    - part: deep-learning.qmd
+      chapters:
+        - foundation-model.qmd.qmd
+    - appendices:
+      - fundamental-papers.qmd
+      - transformers.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: light.scss
