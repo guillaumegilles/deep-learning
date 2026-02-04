@@ -1,0 +1,26 @@
+---
+title: "Deep Learning"
+---
+
+## list of ressources
+
+- https://www.cs.toronto.edu/~hinton/
+  - https://www.cs.toronto.edu/%7Ehinton/absps/pdp8.pdf
+  - https://www.cs.toronto.edu/%7Ehinton/absps/families.pdf
+  - https://www.cs.toronto.edu/%7Ehinton/absps/cogscibm.pdf
+  - https://www.cs.toronto.edu/%7Etijmen/csc321/slides/lecture_slides_lec6.pdf
+- https://jmlr.org/papers/v15/srivastava14a.html
+- https://github.com/fastai/imagenette
+- https://arxiv.org/abs/1512.03385
+- https://arxiv.org/abs/1812.01187
+- https://arxiv.org/abs/1803.09820
+- https://arxiv.org/abs/1710.05381
+- https://arxiv.org/abs/2003.02819
+- https://github.com/karpathy/minGPT
+- https://www.fast.ai/posts/2017-11-13-validation-sets.html
+- https://www.amazon.com/Building-Machine-Learning-Powered-Applications/dp/149204511X
+- https://www.amazon.com/Learning-Data-Yaser-S-Abu-Mostafa/dp/1600490069
+- https://web.archive.org/web/20210724194837/https://mlwave.com/kaggle-ensembling-guide/
+
+- https://github.com/karpathy/minGPT
+- https://github.com/karpathy/nanochat

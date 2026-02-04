@@ -4,9 +4,9 @@ Les modèles de fondations sont un nouveau paradigme dans l'aire de l'intelligen
 
 | Model    | Developper | License | Weights | Algorithm | Dataset | Open Source |
 | -------- | ---------- | ------- | ------- | --------- | ------- | ----------- |
-| Llama    | Meta AI    |         |    x    |           |         | 🟢          |
-| Gemma    | Google     |         |         |           |         | 🟡          |
-| Mistral  |            |         |         |           |         | 🔴          |
+| Llama    | Meta AI    |         |    x    |           |         | 🟢         |
+| Gemma    | Google     |         |         |           |         | 🟡         |
+| Mistral  |            |         |         |           |         | 🔴         |
 | DeepSeek |            |         |         |           |         |             |
 | Qwen     | Alibaba    |         |         |           |         |             |
 | Falcon   |            |         |         |           |         |             |
